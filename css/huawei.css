@@ -1,0 +1,16 @@
+.col-md-8
+{
+	padding-top:100px;
+	margin-left:160px;
+}
+p{
+	padding-left:50px;
+}
+.footer
+{
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 30px;
+	background-color:#343a40;
+}

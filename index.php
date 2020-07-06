@@ -1,30 +1,15 @@
-<?php session_start(); ?>
-<?php
-	include("Model/config.php");
-	$db = new Database;
-	$db->connect();
 
-	if(isset($_GET['c']))
-	{
-		$controller= $_GET['c'];
-	}
-	else
-	{
-		header("location:index.php?c=product&a=home");
-	}
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<?php include('module/header.php'); ?>
+	</head>
+	<body>
+		<?php include('module/menu.php'); ?>
 
-	switch ($controller) {
-		case 'user':{
-			require_once('Controller/user/index.php');
-			break;
-		}
-		case 'product':{
-			require_once('Controller/product/index.php');
-			break;
-		}
-		case 'cart':{
-			require_once('Controller/cart.php');
-			break;
-		}
-	}
-?>
+		<?php include('module/content.php'); ?>
+
+		<?php include('module/footer.php'); ?>
+		
+	</body>
+	</html>

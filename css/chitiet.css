@@ -1,0 +1,183 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+	font-size: 15px;
+}
+.container
+{
+	margin-top: 100px;
+}
+.fa-check-circle
+{
+	color: green;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+.badge
+{
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+textarea
+{
+	width: 100%;
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.img-small-wrap div.img-gallery img
+{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #dee2e6;
+}
+div.img-small-wrap div.img-gallery
+{
+	display: inline-block;
+}
+div.img-small-wrap
+{
+	text-align: center;
+	margin-top: 20px;
+}
+div.img-big-wrap img
+{
+	width: 444px;
+	height: 510.594px;
+}
+.img-zoom-container {
+  position: relative;
+}
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 60px;
+  height: 60px;
+}
+.fa-star
+{
+	color: #fed700;
+}
+.tab-pane
+{
+	height: 500px;
+	margin-top: 20px;
+}
+
+.media img
+{
+	border-radius: 50%;
+	margin-right: 20px;
+}
+.media
+{
+	margin:20px 0;
+}
+#menu2 ul li img
+{
+	float: left;
+}
+
+#menu2 ul li span
+{
+	width: 100%;
+}
+.navbar
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#rating
+{
+	background: green;
+	color: white;
+	border-radius: 10px;
+}
+#box
+{
+  margin-top: 7px;
+  margin-left: 10px;
+	position: fixed;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-radius: 10px;
+}
+#number
+{
+	color: white;
+	text-align: center;
+}
+.fas.fa-star
+{
+    color: orange;
+}
+span.rating 
+  {
+    display: inline-block;
+  }
+.list-group-item
+{
+	border-top: 0;
+}
+  input.star 
+  { 
+    display: none; 
+  }
+
+  label.star 
+  {
+    float: right;
+    padding: 7px;
+    font-size: 20px;
+    color: #444;
+  }
+
+  input.star:checked ~ label.star:before 
+  {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+  }
+  input.star-5:checked ~ label.star:before 
+  {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+  input.star-1:checked ~ label.star:before 
+  { 
+    color: #F62; 
+  }
+  label.star:before 
+  {
+    content: '\f006';
+    font-family: FontAwesome;
+  }
+  @media only screen and (max-width: 576px){
+    #box
+    {
+      margin-top: 210px;
+      margin-left: 12px;
+    }
+  }
